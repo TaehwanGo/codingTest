@@ -26,3 +26,6 @@ printDiv.innerHTML = answer;
 alert('b'.localeCompare('a')); // 1
 alert('b'.localeCompare('b')); // 0
  */
+// string[number] => number 번째 char
+
+// 나중에 다시 복습 필요
