@@ -5,7 +5,7 @@ const printDiv = document.querySelector('.print');
  * 3이면 수박수, 4면 수박수박, 5면 수박수박수
  */
 function solution(n) {
-  return '수박'.repeat(n).substr(0, n);
+  return '수박'.repeat(Math.ceil(n / 2)).substr(0, n);
 }
 
 const answer = solution(11);
