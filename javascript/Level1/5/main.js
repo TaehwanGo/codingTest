@@ -26,5 +26,5 @@ printDiv.innerHTML = answer;
 
 // array.map은 각 인자에 연산 또는 함수를 실행한 결과를 반환
 // Array(b - a + 1).fill() 까지 하면 빈 사이 수 만큼의 빈 배열이(undefined) 생성 됨
-// array.reduce((누적값, 현재값, 인덱스, 요소) => {return 결과}, 초기값);
+// array.reduce((누적값, 현재값, 인덱스, 요소) => {return 결과}, 초기값); // 누산기 : Accumulator, 현재값 : Current Value
 // array.reduce((a, c) => a + c) 는 array의 모든 값을 더한 결과를 출력
