@@ -15,4 +15,4 @@ console.log(answer);
 
 printDiv.innerHTML = answer;
 
-// later
+// 규칙 찾아야 함 (later)
