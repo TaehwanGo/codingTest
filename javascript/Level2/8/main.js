@@ -4,7 +4,7 @@ const printDiv = document.querySelector('.print');
  * 최솟값
  * [1,4,2], [5,4,4]가 주어진다면 각 배열에서 두 수 씩 뽑아 곱한 후,
  * 그 것들을 더한 값이 최소가 되도록 하는 문제
- * e.g., 1*4 + 4*4 + 2*4 가 28로 최소가 됨
+ * e.g., 1*5 + 4*4 + 2*4 가 29로 최소가 됨
  */
 
 function mySolution(arr1, arr2) {
